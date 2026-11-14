@@ -1,0 +1,106 @@
+{
+  "updated": "2026-11-14",
+  "projects": [
+    {
+      "id": "dsh-openviking-expand",
+      "name": "OpenViking Expand for DSH",
+      "repository": "zrwangems/dsh-openviking-expand",
+      "url": "https://github.com/zrwangems/dsh-openviking-expand",
+      "category": "community",
+      "description": "Bring OpenViking Studio and a browsable viking:// sidebar into DeepSeek Harness. Preview files and L0/L1 summaries, then reference a URI in the current chat without leaving DSH.",
+      "descriptionZh": "把 OpenViking Studio 和 viking:// 文件树带进 DeepSeek Harness。可预览文件与 L0/L1 摘要，并将 URI 直接引用到当前会话。",
+      "tags": [
+        "DSH",
+        "Plugin",
+        "Studio"
+      ],
+      "maintainer": "zrwangems",
+      "image": "images/projects/dsh-openviking-expand.png"
+    },
+    {
+      "id": "deer-flow",
+      "name": "DeerFlow",
+      "repository": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "homepage": "https://deerflow.tech",
+      "category": "partner",
+      "description": "An open-source long-horizon SuperAgent harness for research, coding, and content creation, combining sandboxes, memory, tools, skills, and subagents.",
+      "descriptionZh": "开源的长任务 SuperAgent 框架，将沙箱、记忆、工具、技能与子智能体组合起来，完成研究、编程和内容创作。",
+      "tags": [
+        "SuperAgent",
+        "Memory",
+        "Research"
+      ],
+      "maintainer": "ByteDance",
+      "image": "images/projects/deer-flow.png"
+    },
+    {
+      "id": "nokv",
+      "name": "NoKV",
+      "repository": "NoKV-Lab/NoKV",
+      "url": "https://github.com/NoKV-Lab/NoKV",
+      "homepage": "https://nokv.io/",
+      "category": "partner",
+      "description": "An AI-native distributed filesystem that gives agents a shared workspace for durable files and collaborative context.",
+      "descriptionZh": "面向 AI 的分布式文件系统，为智能体提供可持久保存文件、共享上下文的协作工作区。",
+      "tags": [
+        "Filesystem",
+        "Distributed",
+        "Workspace"
+      ],
+      "maintainer": "NoKV Lab",
+      "image": "images/projects/nokv.png"
+    },
+    {
+      "id": "loopx",
+      "name": "loopx",
+      "repository": "loopx-project/loopx",
+      "url": "https://github.com/loopx-project/loopx",
+      "homepage": "https://loopx-project.github.io/loopx/",
+      "category": "partner",
+      "description": "A local-first semantic control plane and research workbench that turns long-horizon goals into verifiable results across sessions and agent runtimes.",
+      "descriptionZh": "本地优先的语义控制平面与研究工作台，跨会话、跨智能体运行时，把长期目标转化为可验证的结果。",
+      "tags": [
+        "Control plane",
+        "Local-first",
+        "Agents"
+      ],
+      "maintainer": "loopx-project",
+      "image": "images/projects/loopx.png"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "repository": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "category": "partner",
+      "description": "A self-improving agent with native OpenViking memory support for persistent recall, capture, and cross-session continuity.",
+      "descriptionZh": "可持续成长的智能体，原生支持 OpenViking 记忆，让召回、沉淀与跨会话连续性开箱即用。",
+      "tags": [
+        "Agent",
+        "Native memory",
+        "OpenViking"
+      ],
+      "maintainer": "Nous Research",
+      "image": "images/projects/hermes-agent.png"
+    },
+    {
+      "id": "cuvs",
+      "name": "NVIDIA cuVS",
+      "repository": "NVIDIA/cuvs",
+      "url": "https://github.com/NVIDIA/cuvs",
+      "homepage": "https://docs.nvidia.com/cuvs/",
+      "category": "partner",
+      "description": "GPU-accelerated vector search and clustering primitives for building fast, scalable retrieval systems.",
+      "descriptionZh": "GPU 加速的向量检索与聚类基础库，为高速、可扩展的检索系统提供底层能力。",
+      "tags": [
+        "GPU",
+        "Vector search",
+        "Retrieval"
+      ],
+      "maintainer": "NVIDIA",
+      "image": "images/projects/cuvs.png"
+    }
+  ]
+}

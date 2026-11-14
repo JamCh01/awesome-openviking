@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A living atlas of OpenViking ecosystem projects, integrations, and ideas.">
+  <meta name="theme-color" content="#153c31">
+  <meta property="og:title" content="Awesome OpenViking">
+  <meta property="og:description" content="Good context goes further. Explore the OpenViking ecosystem.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://openviking-superagent.github.io/awesome-openviking/">
+  <title>Awesome OpenViking — The ecosystem atlas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Awesome OpenViking home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>awesome<span class="brand-slash">/</span>openviking</span>
+    </a>
+    <nav class="header-actions" aria-label="Utilities">
+      <button id="language" class="text-button" type="button" aria-label="切换为中文">中文</button>
+      <a class="github-link" href="https://github.com/openviking-superagent/awesome-openviking" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C17.5 4.6 18.5 5 18.5 5c.6 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.3 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"/></svg>
+        <span>GitHub</span><span class="external">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span><span data-i18n="eyebrow">THE OPENVIKING ECOSYSTEM</span></p>
+        <h1 id="hero-title" data-i18n="title">Good context<br>goes <em>further.</em></h1>
+        <p class="hero-description" data-i18n="description">A living atlas of projects, integrations, and ideas that help agents remember, retrieve, and build.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="explore">Explore the atlas</span><span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="https://github.com/openviking-superagent/awesome-openviking/pulls" target="_blank" rel="noreferrer"><span data-i18n="submit">Add your project</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="atlas-art" aria-hidden="true">
+        <div class="atlas-label">VIKING://</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <svg class="atlas-lines" viewBox="0 0 500 430" preserveAspectRatio="none"><path d="M95 110 250 215 399 91M250 215 410 326M250 215 91 327M95 110 399 91M91 327 410 326"/></svg>
+        <div class="atlas-node node-center"><span class="node-core"></span><b>OV</b></div>
+        <div class="atlas-node node-one"><span></span><small>MEMORY</small></div>
+        <div class="atlas-node node-two"><span></span><small>AGENTS</small></div>
+        <div class="atlas-node node-three"><span></span><small>SKILLS</small></div>
+        <div class="atlas-node node-four"><span></span><small>CONTEXT</small></div>
+        <div class="coordinate coordinate-one">59°56′ N</div><div class="coordinate coordinate-two">10°45′ E</div>
+      </div>
+      <div class="hero-meta">
+        <div><strong id="project-count">06</strong><span data-i18n="projects">PROJECTS</span></div>
+        <div><strong>03</strong><span data-i18n="layers">LAYERS OF CONTEXT</span></div>
+        <div><strong>∞</strong><span data-i18n="possibilities">POSSIBILITIES</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="section-index">01 / <span data-i18n="atlas">ATLAS</span></p><h2 id="projects-title" data-i18n="find">Find your next building block.</h2></div>
+        <p data-i18n="curation">Handpicked projects from the OpenViking community and partners.</p>
+      </div>
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true"><span data-i18n="all">All projects</span><span class="filter-count" id="all-count">6</span></button>
+          <button class="filter" type="button" data-filter="community" aria-pressed="false"><span data-i18n="community">Community</span><span class="filter-count" id="community-count">1</span></button>
+          <button class="filter" type="button" data-filter="partner" aria-pressed="false"><span data-i18n="partners">Partners</span><span class="filter-count" id="partner-count">5</span></button>
+        </div>
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <span class="sr-only" data-i18n="searchLabel">Search projects</span>
+          <input id="search" type="search" placeholder="Search the atlas…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+      </div>
+      <div id="project-grid" class="project-grid" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>No projects found. Try another search.</p>
+      <noscript><p>Enable JavaScript to browse the interactive atlas, or <a href="https://github.com/openviking-superagent/awesome-openviking#readme">view the complete list on GitHub</a>.</p></noscript>
+    </section>
+
+    <section class="contribute-section">
+      <div class="contribute-number">02 / <span data-i18n="contributeLabel">CONTRIBUTE</span></div>
+      <div class="contribute-copy"><h2 data-i18n="built">Built something<br>with OpenViking?</h2><p data-i18n="invite">A plugin, a tool, a field guide, or an experiment that worked. Add it to the map and help the next builder find their way.</p></div>
+      <a class="contribute-link" href="https://github.com/openviking-superagent/awesome-openviking/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span data-i18n="pr">Make a pull request</span><span class="round-arrow">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-brand" href="https://github.com/volcengine/OpenViking" target="_blank" rel="noreferrer">OpenViking <span>↗</span></a>
+    <p data-i18n="footer">Context is the new frontier.</p>
+    <p class="footer-note"><span data-i18n="curated">Curated by the community</span> · <span id="year"></span></p>
+  </footer>
+</body>
+</html>
